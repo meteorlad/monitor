@@ -1,0 +1,26 @@
+{
+  "name": "monitor/monitor",
+  "type": "library",
+  "description": "This Monitor Lanp && Linux Environmental Science",
+  "keywords": ["library", "monitor"],
+  "homepage": "https://github.com/wanggufeng/monitor",
+  "license": "MIT",
+  "support": {
+	"issues": "https://github.com/wanggufeng/monitor/issues"
+  },
+  "authors": [
+	{
+	  "name": "Gufeng Wang",
+	  "email": "cn.wangbj@icloud.com",
+	  "homepage": "http://blog.wanggufeng.cn"
+	}
+  ],
+  "require": {
+	"php": ">=5.6.0"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+	"psr-4": {"libary\\monitor\\": "src/"}
+  }
+}
