@@ -40,13 +40,3 @@ monitor用php开发，下载所有php文件，命令行下执行start.php脚本�
     }
     
 新的检测项需要继承Check类，并在check函数中实现自己的检查逻辑即可。另外可以定义问题检测的优先级,代表了检测的顺序，在类中声明$priority变量即可，值越小，优先级越高，默认是最低检测优先级。
-
-###**五、关于捐助作者**
-* 为什么要捐助？<br/>
-* 一篇好文章可以帮助你节省大量的时间，而你的时间是相当宝贵的。
-向文章的作者提供小额捐助，可以鼓励作者写出更好的文章。这是一种良性循环，现在就行动吧！<br>
-<div style="width:100px;border:1px solid red">
-![zb_pay](http://s1.wanggufeng.cn/zb_pay.jpg "zb_pay") &nbsp;&nbsp;
-![wx_pay](http://s1.wanggufeng.cn/wx_pay.jpg "wx_pay")
-</div>
-<span style="font-size: 14px; color: rgb(136, 136, 136);">（支持微信与支付宝）</span>
