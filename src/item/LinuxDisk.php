@@ -7,6 +7,7 @@
 namespace libary\monitor\item;
 
 use libary\monitor\common\Utils;
+
 /**
  * 磁盘检查
  * @Author: Gufeng Wang
@@ -21,7 +22,7 @@ class LinuxDisk extends CheckBase
         /*----------检查磁盘空间-------------*/
         $cmd = "df -h";
         $arrRes = array();
-        exec($cmd,$arrRes);
+        exec($cmd, $arrRes);
         unset($arrRes[0]);
 
         foreach ($arrRes as $val) {
@@ -35,7 +36,7 @@ class LinuxDisk extends CheckBase
         /*----------检查inode使用-------------*/
         $cmd = "df -i";
         $arrRes = array();
-        exec($cmd,$arrRes);
+        exec($cmd, $arrRes);
         unset($arrRes[0]);
 
         foreach ($arrRes as $val) {
@@ -45,7 +46,5 @@ class LinuxDisk extends CheckBase
                 Utils::print_error($msg);
             }
         }
-
     }
-
 }

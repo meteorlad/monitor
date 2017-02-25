@@ -14,7 +14,8 @@ use libary\monitor\Engine;
 require_once dirname(__DIR__) . '/vendor/autoload.php';
 $dev = $argv[1];
 if (!$dev=='online' || !$dev=='offline') {
-    echo "environment parameter error.\n\n";exit;
+    echo "environment parameter error.\n\n";
+    exit;
 } else {
     defined('ENV') or define('ENV', $dev);
 }

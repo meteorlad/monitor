@@ -7,6 +7,7 @@
 namespace libary\monitor\item;
 
 use libary\monitor\common\Utils;
+
 /**
  * NG服务检查
  * @Author: Gufeng Wang
@@ -32,7 +33,5 @@ class Nginx extends CheckBase
             $msg = "no nginx process";
             Utils::print_error($msg);
         }
-
     }
-
 }

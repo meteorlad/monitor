@@ -7,6 +7,7 @@
 namespace libary\monitor\item;
 
 use libary\monitor\common\Utils;
+
 /**
  * PHP服务检查
  * @Author: Gufeng Wang
@@ -32,7 +33,5 @@ class PHP extends CheckBase
             $msg = "no php process";
             Utils::print_error($msg);
         }
-
     }
-
- }
+}

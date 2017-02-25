@@ -7,6 +7,7 @@
 namespace libary\monitor\item;
 
 use libary\monitor\common\Utils;
+
 /**
  * 所有服务基类
  * @Author: Gufeng Wang
@@ -19,7 +20,7 @@ interface Base
     public function printData();
 }
 
-abstract class  CheckBase implements Base
+abstract class CheckBase implements Base
 {
     public $priority = 0;
     public $fall = true;
@@ -41,5 +42,4 @@ abstract class  CheckBase implements Base
     {
         $this->fall = $fall;
     }
-
 }

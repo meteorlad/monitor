@@ -8,6 +8,7 @@ namespace libary\monitor\item;
 
 use libary\monitor\common\Utils;
 use libary\monitor\common\Config;
+
 /**
  * 数据检查
  * @Author: Gufeng Wang
@@ -31,9 +32,5 @@ class Mysql extends CheckBase
             $msg = "mysql connection failed";
             Utils::print_error($msg);
         }
-
     }
-
 }
-
-

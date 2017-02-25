@@ -7,6 +7,7 @@
 namespace libary\monitor\item;
 
 use libary\monitor\common\Utils;
+
 /**
  * Rabbit服务检查
  * @Author: Gufeng Wang
@@ -32,5 +33,4 @@ class RabbitMq extends CheckBase
             Utils::print_error($msg);
         }
     }
-
- }
+}

@@ -16,7 +16,7 @@ class Utils
     public static function get_cmd_res($cmd)
     {
         $arrRes = array();
-        exec($cmd,$arrRes);
+        exec($cmd, $arrRes);
 
         return $arrRes;
     }
@@ -38,5 +38,4 @@ class Utils
         $u_uinfo = posix_getpwuid($c_uid);
         return $u_uinfo['name'];
     }
-
 }

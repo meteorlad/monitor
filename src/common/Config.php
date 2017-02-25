@@ -41,5 +41,4 @@ class Config
             'port'     => '3306'
         ],
     ];
-
 }
